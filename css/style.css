@@ -1,4 +1,35 @@
-h1{
-    background-color: bisque;
-    font-size: 32px;
+/* root */
+:root{
+    --bacground: #D5E1EF;
+    --text: #858D9F
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    background-color: var(--bacground);
+}
+#qr-code{
+    background-color: white;
+    width: 300px;
+    padding: 18px;
+    border-radius: 8px;
+}
+/* qr--code__item */
+.qr--code__item{
+    background-color: #2B7DFA;
+    padding: 50px;
+    border-radius: 8px;
+
+}
+.qr--code__item .qr--code__item__image{
+    width: 100%;
+    background-color: #2B7DFA;
+    border-radius: 8px;
+}
+.qr--code__text{
+    color: var(--text);
 }
